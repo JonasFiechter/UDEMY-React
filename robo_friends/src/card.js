@@ -1,7 +1,7 @@
 import React from "react";
 import 'tachyons'
 
-const Card = (props) => {
+function Card(props) {
     return (
         <div className="tc bg-light-green dib br4 pa3 ma2 grow bw2 shadow-5">
             <img alt="robots" src={`https://robohash.org/${props.id + props.hash}`}/>
